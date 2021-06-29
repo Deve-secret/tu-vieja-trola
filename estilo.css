@@ -1,0 +1,143 @@
+/*PRINCIPAL*/
+* {
+    font-family: 'Jomhuria', cursive;
+    font-weight: 100;
+    font-size: 35px;
+    cursor: url(img/cursor.png), auto;
+}
+
+body {
+    background-image: url("img/bg.jpg");
+    cursor: url(img/cursor.png), auto;
+}
+
+a {
+    cursor: url(img/cursor.png), auto;
+}
+
+h2 {
+    font-size: 100px;
+}
+/*TITULO*/
+.titulo {
+    color: blue;
+    text-align: center;
+}
+/*TITULO PRINCIPAL*/
+.rusher {
+    color: white;
+    text-align: center;
+}
+/*BOTON DISCORD*/
+.botonds {
+    display:inline-block;
+    border:none;
+    font-size:25px;
+    font-weight:400;
+    min-width:186px;
+    padding:10px 10px;
+    border-radius:14px;
+    background:#3f01b1;
+    color:rgb(0, 0, 0);
+    line-height:1;
+    cursor:pointer;
+    text-align:center;
+}
+/*TITULO SERVICIOS*/
+.servicios {
+    color: white;
+    text-align: center;
+}
+/*TITULO ACERCADE*/
+.acercade {
+    color: white;
+    text-align: center;
+}
+/*DESCRIPCION ACERCA DE*/
+.descripcion {
+    color: white;
+    text-align: left;
+}
+/*BARRA NAVEGACION*/
+.menu {
+    list-style: none;
+    padding: 0;
+    background: #0b032a;
+    width: 90%;
+    border-radius: 5px;
+    max-width: 555px;
+    margin: auto;
+}
+/*BARRA NAVEGACION*/
+.menu li a {
+   text-decoration: none;
+   color: white;
+   padding: 20px;
+   display: block; 
+}
+/*BARRA NAVEGACION*/
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+/*BARRA NAVEGACION*/
+.menu li a:hover {
+    background: #3f01b1;
+}
+/*CARTAS SERVICIOS*/
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 100px;
+    font-weight: 100;
+}
+/*CARTAS SERVICIOS*/
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+/*CARTAS SERVICIOS*/
+.container .carta{
+    width: 330px;
+    height: 470px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/*CARTAS SERVICIOS*/
+.container .carta:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(255, 255, 255, 0.2);   
+}
+/*CARTAS SERVICIOS*/
+.container .carta img{
+    width: 330px;
+    height: 220px;
+}
+/*CARTAS SERVICIOS*/
+.container .carta h4{
+    font-weight: 400;
+    color: white;
+}
+/*CARTAS SERVICIOS*/
+.container .carta p{
+    padding: 0 1rem;
+    font-size: 24px;
+    font-weight: 300;
+}
+/*CARTAS SERVICIOS*/
+.container .carta a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
